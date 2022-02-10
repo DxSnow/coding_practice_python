@@ -1,5 +1,5 @@
-## Method 1: using doubly linked list + dictionary
-```
+#Method 1: using doubly linked list + dictionary
+
 class Node:
   def __init__(self, key=None, value=None):
     self.key = key
@@ -49,9 +49,9 @@ class LRUCache:
     node.next = self.tail
     self.tail.prev = node
     last_node.next = node
-```
-## Method 2: using OrderedDict
-```
+
+# Method 2: using OrderedDict
+
 from collections import OrderedDict
 class LRUCache:
 
@@ -76,4 +76,4 @@ class LRUCache:
             if self.capacity == len(self.dic):
                 self.dic.popitem(last = False) # throw away the first in queue
             self.dic[key] = value
-```
+
