@@ -1,4 +1,5 @@
-#Method 1: using doubly linked list + dictionary
+# Video link: https://youtu.be/3ocyjP7gnHY
+# Method 1: using doubly linked list + dictionary
 
 class Node:
   def __init__(self, key=None, value=None):
