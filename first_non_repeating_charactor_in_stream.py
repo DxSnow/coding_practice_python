@@ -1,3 +1,4 @@
+# video link: https://youtu.be/KfuwbZsWMBc
 # I've used dictionary + doubly linked list to solve this problem. I've wrote 2 implementations. 
 # method 1: store node reference and character frenquency both in dictionary. {char:[node,fre]}. 
 
